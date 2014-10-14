@@ -107,7 +107,7 @@ function caspeco(keyId, key) {
 			var signature = sign(head);
 			object.headers = head;
 			object.headers.authorization = signature;
-			request(object, callback(err, result));
+			request(object, callback(err, result, body));
 		},
 
 
