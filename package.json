@@ -1,0 +1,10 @@
+{
+  "name": "caspeco-node",
+  "main": "caspeco.js",
+  "version": "0.0.0",
+  "dependencies": {
+    "http": "0.0.0",
+    "request": "^2.45.0",
+    "signatures": "0.0.2"
+  }
+}
